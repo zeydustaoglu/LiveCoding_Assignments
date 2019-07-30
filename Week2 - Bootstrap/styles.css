@@ -1,0 +1,104 @@
+#image-profile{
+  height: 200px;
+
+}
+
+
+.header{
+
+    padding: 100px;
+    text-align:center; 
+background-color: #B7D4FA
+   
+}
+.rounded-circle img{
+    border: 1px black solid;
+    background-color: white
+}
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 0;
+    font-size:5.26em;
+    color:#008AC8
+    }
+
+.container{
+    text-align: center;
+    padding: 25px
+}
+ p{
+    font-family:'Righteous', cursive;
+ }
+ h2{
+    font-family: 'Righteous', cursive;
+    font-weight: 100;
+    color:#FCAE41
+ }
+.skills img{
+     height: 200px;     
+ }
+.skills{
+    text-align: -webkit-auto;
+    margin-top:50px 
+}
+h3{
+    font-family: 'Righteous', cursive;
+    font-size: 1.26em;
+    color:#17a2b8;
+}
+.radius{
+border-radius: 50%;
+height: 50px;
+}
+
+.portfolio{
+margin-top: 20px;
+padding: 10px
+}
+
+.portfolio-img{
+    height: 150px;
+}
+.logo{
+    width:20%;
+    margin-left:70px 
+}
+footer{
+    background-color: #B7D4FA
+
+    
+}
+.carousel-control-next-icon{
+    background-color: black
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+    margin-right: 62%;
+}
+
+
+
+#submit-button{
+    float:right;
+    margin-bottom: 20px;
+    margin-right:20px 
+}
+
+ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+ul li a {
+   
+    font-family: 'Righteous', cursive;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.651);
+}
+
+footer h3{
+    color: rgba(0, 0, 0, 0.651);
+    margin-top: 20px;
+    
+}
