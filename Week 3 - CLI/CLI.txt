@@ -1,1 +1,94 @@
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~
+$ cd Desktop
 
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop
+$ mkdir petshop
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop
+$ cd petshop
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ touch pets.txt
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ echo "cat" > pets.txt
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ cat pets.txt
+cat
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ echo "dog" >> pets.txt
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ echo "hamster" >> pets.txt
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ cat pets.txt
+cat
+dog
+hamster
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ touch commands.txt
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ echo "cat" > commands.txt
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ echo "ls" >> commands.txt
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ echo "pwd" >> commands.txt
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ cat commands.txt
+cat
+ls
+pwd
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ cat pets.txt commands.txt | sort | uniq
+cat
+dog
+hamster
+ls
+pwd
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ cd ..
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop
+$ cd petshop
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ touch lovelycommands.txt
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ echo "cat","dog","hamster","ls","pwd"> lovelycommands.txt
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ cat lovelycommands.txt
+cat,dog,hamster,ls,pwd
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ cat lovelycommands.txt | sort | uniq
+cat,dog,hamster,ls,pwd
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/petshop
+$ cd ..
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop
+$ mkdir loop
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop
+$ cd loop
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/loop
+$ touch greetings.txt
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/loop
+$ for i in {1..5};do echo "Hello" >> greetings.txt ;done
+
+Lenovo Thinkpad@DESKTOP-OO8UQ7G MINGW64 ~/Desktop/loop
+$ for i in {1..5};do touch $i.txt;done
