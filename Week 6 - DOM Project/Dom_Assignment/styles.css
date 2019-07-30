@@ -1,0 +1,106 @@
+.container {
+    width: 70%;
+    margin: auto;
+   
+  }
+  .header{
+    height: 80px;    
+
+  }
+  .logo{
+    width: 10%;
+    float: left;
+    margin:10px 0 10px 50px
+  }
+
+  .logoDiv{
+    height: auto;
+    width: 50%;
+    float: left;
+}
+  
+  .menuDiv{
+    height:auto;
+    width: 50%;
+    float: right;
+  
+  }
+
+  .menuDiv ul{
+    padding-right: 50px;
+    margin-top: 0px;
+
+  }
+  .bookDiv p{
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center
+  }
+  .bookDiv{
+    padding:20px 0 20px 0
+  }
+  .menu{
+    float: right;
+    color:#393E46;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    margin: 10px;
+    padding-bottom:20px 
+  }
+.bookImage{
+  width: 20%
+}
+  body {
+    background-color: whitesmoke;
+  }
+  
+  h1 {
+    padding-top: 10px;
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 3px 0 #E7B720;
+    font-size: 3rem;
+    color: #232931;
+  }
+  
+  .maindiv{
+      color:whitesmoke;
+      text-align: center
+  }
+  .link{
+    color:#393E46;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .link:hover{
+    color:rgb(252, 118, 118);
+  }
+  .info{
+    color:#393E46;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .author{
+    color:#393E46;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .language{
+    color:#393E46;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  ul{
+    list-style: none
+  }
+  
+ 
+  footer {
+    margin-top: 5%;
+        text-align: center;
+    font-family: 'Indie Flower', cursive;
+    height: 200px;
+  
+  }
+  
