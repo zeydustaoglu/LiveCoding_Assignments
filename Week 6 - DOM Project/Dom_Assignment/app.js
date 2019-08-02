@@ -138,6 +138,6 @@ function createAndAppend(child,append,text,className,srcOfimg,href){
     el.href=href
     return el;
 }
-const footer=createAndAppend('footer',mainDiv,null,'footer')
+// const footer=createAndAppend('footer',mainDiv,null,'footer')
 
-const footertext=createAndAppend('a',footer,'Designed by Zeyd | 2019','link',"#")
+// const footertext=createAndAppend('a',footer,'Designed by Zeyd | 2019','link',"#")
